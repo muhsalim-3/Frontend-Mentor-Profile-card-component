@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    
+    <title>Frontend Mentor | Profile card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+
+        .attribution { 
+          display: flex;
+          position: absolute;
+          bottom: 20%;
+          font-size: 11px; 
+          text-align: center;
+          margin-top: 20px;
+        }
+
+        .attribution a { 
+          color: hsl(228, 45%, 44%); 
+        }
+
+        @media only screen and (max-width: 375px) {
+          .card {
+            width: 70%;
+            min-width: 340px;
+          }
+          .profile-picture {
+            width: 70px;
+          }
+          .card-body {
+            font-size: 19px;
+          }
+          .stat {
+            font-size: 19px;
+          }
+        }
+      @media only screen and (max-width: 1440px) {
+        .card {
+          width: 80%;
+          min-width: 350px;
+        }
+        .profile-picture {
+          width: 90px;
+        }
+        .card-body {
+          font-size: 22px;
+        }
+        .stat {
+          font-size: 22px;
+        }
+      }
+
+      p{
+        color: #808080;
+        font-size: 0.9rem;
+      }
+
+      body {
+        background-color: #2d3248;
+        background-image: url('./images/bg-pattern-top.svg');
+        font-family: sans-serif;
+        background-color: #e0e8ff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 1440px;
+      }
+
+      .card {
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        width: 350px;
+        text-align: center;
+        box-shadow: 0 4px 6px #00000083;
+      }
+
+      .card-header {
+        position: relative;
+      }
+
+      .background {
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+      }
+
+      .profile-picture {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        border: 3px solid white;
+        position: absolute;
+        bottom: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+
+      .card-body {
+        margin-top: 40px;
+        padding: 20px;
+      }
+
+      .card-body h1 {
+        font-family: sans-serif;
+        font-size: 1.5rem;
+        font-weight: bold;
+      }
+
+      .card-body h1 span {
+        font-weight: normal;
+        color: #808080;
+        font-size: 1rem;
+      }
+
+      .card-body p {
+        color: #808080;
+        font-size: 0.9rem;
+      }
+
+
+      .stat h2 {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+
+      .stat p {
+        text-align: center;
+        color: #808080;
+        font-size: 13px;
+      }
+
+      .card-footer {
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        border-top: 1px solid #e3e3e3;
+        padding: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-header">
+          <img src="./images/bg-pattern-card.svg" alt="Background Pattern" class="background">
+          <img src="./images/image-victor.jpg" alt="Profile Picture" class="profile-picture">
+        </div>
+        <div class="card-body">
+          <h1>Victor Crest <span>26</span></h1>
+          <p>London</p>
+        </div>
+        <div class="card-footer">
+          <div class="stat">
+            <h2>80K</h2>
+            <p>Followers</p>
+          </div>
+          <div class="stat">
+            <h2>803K</h2>
+            <p>Likes</p>
+          </div>
+          <div class="stat">
+            <h2>1.4K</h2>
+            <p>Photos</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Muhammad Shehu</a>.
+    </div>
+  </body>
+</html>
+
+
+
+
+
