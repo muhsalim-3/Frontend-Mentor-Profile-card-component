@@ -23,7 +23,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![./images/Capture.jpg](./images/Capture.jpg)
+![images/Capture.jpg](images/Capture.jpg)
 
 
 ### Built with
@@ -31,8 +31,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-
 
 ### What I learned
 
