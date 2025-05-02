@@ -23,7 +23,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![images/Capture.jpg](images/Capture.jpg)
+[Screenshot](./images/Capture.jpg)
 
 
 ### Built with
