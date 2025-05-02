@@ -23,8 +23,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./images/mobile%20view.jpg)
-![](./images/desktop%20view.jpg)
+![./images/Capture.jpg](./images/Capture.jpg)
 
 
 ### Built with
@@ -44,19 +43,18 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ```
 ```css
    - Using Flexbox (`display: flex; justify-content: center; align-items: center;`) to center elements horizontally and vertically.
-   - Using CSS Grid (`display: grid; grid-template-columns: ...;`) to create responsive layouts.
    - Using `position: relative` and `position: absolute` to place elements like the profile picture within the card.
 ```
 
 
 ### Continued development
 
-I want to continue focusing on Flexbox and Grid because I am still not comfortable with them.
+I want to continue focusing on Flexbox because I think i still have alot to learn on Flexbox.
 
 
 ### Useful resources
 
-- [W3schools](https://www.w3schools.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [W3schools](https://www.w3schools.com) - This helped me for cheching some out quick element infos. I really liked it and will use it going forward.
 
 
 ## Author
